@@ -284,10 +284,19 @@
   font-size: 30px;
   color: #15c4c6;
 }
+.roadmap-para1 p {
+  display: flex;
+  align-items: center;
+  width: 283px;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
 .roadmap-para {
   display: flex;
   align-items: center;
   width: 51%;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
 }
 .reverse .roadmap {
   display: flex;
@@ -476,13 +485,13 @@ footer {
   padding: 10px;
 }
 /* footer button */
-.join {
+/* .join {
   display: flex;
   flex-direction: row-reverse;
   color: black;
+  position: sticky;
 }
 .join button {
-  
   width: 110px;
   height: 110px;
   display: flex;
@@ -492,7 +501,33 @@ footer {
   border-radius: 200px;
   background: white;
   position: absolute;
-  top: 3640px;
+  top: 30px;
   right: 80px;
-
+} */
+.join {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.join-button {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: #fff;
+  position: absolute;
+  top: 740px;
+  right: 35px;
+  position: fixed;
+  top: 734px;
+}
+.join-button p {
+  color: black;
+}
+.join-button button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
