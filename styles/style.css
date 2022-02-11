@@ -5,7 +5,7 @@
   color: white;
 }
 .main-body {
-  background-image: url("Backgrouund.png");
+  background: url("../assets/Backgrouund.png");
   background-size: cover;
 }
 
@@ -141,7 +141,7 @@
 }
 .paragraphs {
   height: 700px;
-  background-image: url("gorilla.png");
+  background-image: url("../assets/gorilla.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
